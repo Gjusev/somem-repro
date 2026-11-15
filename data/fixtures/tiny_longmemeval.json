@@ -1,0 +1,226 @@
+[
+  {
+    "qid": "fx-001",
+    "question": "What drink does Melanie prefer in the morning?",
+    "answer": "jasmine tea",
+    "question_type": "single-session-user",
+    "sessions": [
+      {
+        "session_id": "fx-001-s1",
+        "timestamp": "2025-03-02",
+        "turns": [
+          {"role": "user", "content": "I have switched to jasmine tea in the morning."},
+          {"role": "assistant", "content": "Noted, jasmine tea it is."}
+        ]
+      },
+      {
+        "session_id": "fx-001-s2",
+        "timestamp": "2025-03-09",
+        "turns": [
+          {"role": "user", "content": "Remind me to buy coffee filters for guests."},
+          {"role": "assistant", "content": "Added to your list."}
+        ]
+      }
+    ]
+  },
+  {
+    "qid": "fx-002",
+    "question": "Where did Daniel move to?",
+    "answer": "Rotterdam",
+    "question_type": "knowledge-update",
+    "sessions": [
+      {
+        "session_id": "fx-002-s1",
+        "timestamp": "2024-11-11",
+        "turns": [
+          {"role": "user", "content": "I live in Utrecht near the canals."},
+          {"role": "assistant", "content": "Utrecht is a lovely city."}
+        ]
+      },
+      {
+        "session_id": "fx-002-s2",
+        "timestamp": "2025-01-20",
+        "turns": [
+          {"role": "user", "content": "Update: I moved to Rotterdam last week for work."},
+          {"role": "assistant", "content": "Congrats on the move to Rotterdam."}
+        ]
+      }
+    ]
+  },
+  {
+    "qid": "fx-003",
+    "question": "When is Priya's dentist appointment?",
+    "answer": "June 3rd at 9:30",
+    "question_type": "temporal-reasoning",
+    "sessions": [
+      {
+        "session_id": "fx-003-s1",
+        "timestamp": "2025-05-28",
+        "turns": [
+          {"role": "user", "content": "My dentist appointment is on June 3rd at 9:30."},
+          {"role": "assistant", "content": "I will remember the June 3rd at 9:30 appointment."}
+        ]
+      }
+    ]
+  },
+  {
+    "qid": "fx-004",
+    "question": "Which project is Tomás leading this quarter?",
+    "answer": "the lighthouse migration",
+    "question_type": "multi-session",
+    "sessions": [
+      {
+        "session_id": "fx-004-s1",
+        "timestamp": "2025-04-01",
+        "turns": [
+          {"role": "user", "content": "This quarter I am leading the lighthouse migration."},
+          {"role": "assistant", "content": "Good luck with the lighthouse migration."}
+        ]
+      },
+      {
+        "session_id": "fx-004-s2",
+        "timestamp": "2025-04-15",
+        "turns": [
+          {"role": "user", "content": "The lighthouse migration status is green."},
+          {"role": "assistant", "content": "Great progress on the migration."}
+        ]
+      },
+      {
+        "session_id": "fx-004-s3",
+        "timestamp": "2025-05-02",
+        "turns": [
+          {"role": "user", "content": "I also review pull requests for the gateway team."},
+          {"role": "assistant", "content": "Thanks for helping the gateway team."}
+        ]
+      }
+    ]
+  },
+  {
+    "qid": "fx-005",
+    "question": "What is Ines's cat's name?",
+    "answer": "Mochi",
+    "question_type": "single-session-user",
+    "sessions": [
+      {
+        "session_id": "fx-005-s1",
+        "timestamp": "2025-02-14",
+        "turns": [
+          {"role": "user", "content": "My cat Mochi knocked over the plant again."},
+          {"role": "assistant", "content": "Mochi sounds playful."}
+        ]
+      }
+    ]
+  },
+  {
+    "qid": "fx-006",
+    "question": "Which gym did Kwame cancel?",
+    "answer": "the downtown climbing gym",
+    "question_type": "knowledge-update",
+    "sessions": [
+      {
+        "session_id": "fx-006-s1",
+        "timestamp": "2024-12-05",
+        "turns": [
+          {"role": "user", "content": "I train at the downtown climbing gym three times a week."},
+          {"role": "assistant", "content": "A strong climbing schedule."}
+        ]
+      },
+      {
+        "session_id": "fx-006-s2",
+        "timestamp": "2025-02-01",
+        "turns": [
+          {"role": "user", "content": "I cancelled the downtown climbing gym and joined the riverside pool instead."},
+          {"role": "assistant", "content": "Enjoy the riverside pool."}
+        ]
+      }
+    ]
+  },
+  {
+    "qid": "fx-007",
+    "question": "What did Sara cook for the potluck?",
+    "answer": "spinach lasagna",
+    "question_type": "single-session-user",
+    "sessions": [
+      {
+        "session_id": "fx-007-s1",
+        "timestamp": "2025-06-10",
+        "turns": [
+          {"role": "user", "content": "I am bringing spinach lasagna to the office potluck."},
+          {"role": "assistant", "content": "Spinach lasagna is a solid potluck choice."}
+        ]
+      },
+      {
+        "session_id": "fx-007-s2",
+        "timestamp": "2025-06-12",
+        "turns": [
+          {"role": "user", "content": "Need napkins."},
+          {"role": "assistant", "content": "Added napkins to your list."}
+        ]
+      }
+    ]
+  },
+  {
+    "qid": "fx-008",
+    "question": "When does Leo's parking permit expire?",
+    "answer": "August 31",
+    "question_type": "temporal-reasoning",
+    "sessions": [
+      {
+        "session_id": "fx-008-s1",
+        "timestamp": "2025-07-15",
+        "turns": [
+          {"role": "user", "content": "My parking permit expires on August 31."},
+          {"role": "assistant", "content": "I noted the permit expiry on August 31."}
+        ]
+      }
+    ]
+  },
+  {
+    "qid": "fx-009",
+    "question": "Which language is Noor learning?",
+    "answer": "Korean",
+    "question_type": "multi-session",
+    "sessions": [
+      {
+        "session_id": "fx-009-s1",
+        "timestamp": "2025-01-05",
+        "turns": [
+          {"role": "user", "content": "I started learning Korean in January."},
+          {"role": "assistant", "content": "Fighting! Korean is rewarding to learn."}
+        ]
+      },
+      {
+        "session_id": "fx-009-s2",
+        "timestamp": "2025-03-22",
+        "turns": [
+          {"role": "user", "content": "My Korean study streak hit sixty days."},
+          {"role": "assistant", "content": "A sixty day Korean streak is impressive."}
+        ]
+      }
+    ]
+  },
+  {
+    "qid": "fx-010",
+    "question": "What backup tool does Omar use now?",
+    "answer": "restic",
+    "question_type": "knowledge-update",
+    "sessions": [
+      {
+        "session_id": "fx-010-s1",
+        "timestamp": "2024-09-30",
+        "turns": [
+          {"role": "user", "content": "I back up my laptop with duplicity."},
+          {"role": "assistant", "content": "Duplicity has served you well."}
+        ]
+      },
+      {
+        "session_id": "fx-010-s2",
+        "timestamp": "2025-05-18",
+        "turns": [
+          {"role": "user", "content": "I switched my backup tool to restic with a remote borg repo."},
+          {"role": "assistant", "content": "Restic is now your backup tool."}
+        ]
+      }
+    ]
+  }
+]

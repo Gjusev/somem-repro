@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "somem-repro"
+version = "0.1.0"
+description = "Repro of SoMem (arXiv:2611.11929): self-organized linked-document agent memory — stdlib-only core, offline-tested"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Gjusev" }]
+# Zero-dependency core: everything stdlib. Network (urllib) imports are lazy
+# inside the methods that need them (PEP 668-friendly).
+dependencies = []
+
+[project.optional-dependencies]
+# Nothing here by design. The full LongMemEval-S download and LLM runs need
+# only stdlib urllib + an API key; installing heavy deps is deliberately
+# avoided so the offline suite stays green on locked-down systems.
+
+[tool.setuptools.packages.find]
+where = ["src"]
