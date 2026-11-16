@@ -14,10 +14,10 @@
 
 <p align="center">
   <a href="assets/video/somem-repro.mp4">
-    <img src="assets/video/preview.gif" alt="A source document sends pulses along links to three linked documents; one lights up as the evidence reaches it" width="720">
+    <img src="assets/video/preview.gif" alt="somem-repro: the animated mark beside the headline number, 31 offline tests, zero dependencies" width="720">
   </a>
   <br>
-  <sub><a href="assets/video/somem-repro.mp4">Watch the 8-second film (MP4, 0.1 MB)</a>. Every number in it comes from the committed results in this repo.</sub>
+  <sub><a href="assets/video/somem-repro.mp4">Watch the 8-second film (MP4, 0.2 MB)</a>. Every number in it comes from the committed results in this repo.</sub>
 </p>
 
 Reproduction/test repo for **SoMem** — *Can LLM Agents Organize Their Own
