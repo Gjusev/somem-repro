@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "somem-repro: independent stdlib-only reproduction of SoMem (agent memory as linked documents)"
+authors:
+  - family-names: Ouhaghi
+    given-names: Youssef
+type: software
+version: 0.1.0
+date-released: "2026-11-16"
+license: MIT
+repository-code: "https://github.com/Gjusev/somem-repro"
+keywords:
+  - llm-agents
+  - benchmark
+  - offline
+  - zero-dependencies

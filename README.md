@@ -5,6 +5,21 @@
 [![python](https://img.shields.io/badge/python-3.10%2B-blue)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo/logo-animated-dark.svg">
+    <img src="assets/logo/logo-animated-light.svg" alt="somem-repro: agent memory as linked documents, evidence pulses from source to summary" width="560">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="assets/video/somem-repro.mp4">
+    <img src="assets/video/preview.gif" alt="A source document sends pulses along links to three linked documents; one lights up as the evidence reaches it" width="720">
+  </a>
+  <br>
+  <sub><a href="assets/video/somem-repro.mp4">Watch the 8-second film (MP4, 0.1 MB)</a>. Every number in it comes from the committed results in this repo.</sub>
+</p>
+
 Reproduction/test repo for **SoMem** — *Can LLM Agents Organize Their Own
 Memory?* (Fu et al., CityU HK + Tencent Jarvis Lab, [arXiv:2611.11929](https://arxiv.org/abs/2611.11929)).
 Official code: [Qi202/SoMem](https://github.com/Qi202/SoMem) (MIT).
