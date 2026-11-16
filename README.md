@@ -1,5 +1,10 @@
 # somem-repro
 
+[![tests](https://github.com/Gjusev/somem-repro/actions/workflows/tests.yml/badge.svg)](https://github.com/Gjusev/somem-repro/actions/workflows/tests.yml)
+[![dependencies](https://img.shields.io/badge/dependencies-0-success)]()
+[![python](https://img.shields.io/badge/python-3.10%2B-blue)]()
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Reproduction/test repo for **SoMem** — *Can LLM Agents Organize Their Own
 Memory?* (Fu et al., CityU HK + Tencent Jarvis Lab, [arXiv:2611.11929](https://arxiv.org/abs/2611.11929)).
 Official code: [Qi202/SoMem](https://github.com/Qi202/SoMem) (MIT).
